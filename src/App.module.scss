@@ -1,0 +1,24 @@
+:root {
+  --gradient-red: linear-gradient(
+    135deg,
+    #ff7324 14.84%,
+    #ee3b28 35.81%,
+    #da1500 51.16%,
+    #ee3b28 67.63%,
+    #fea14a 86.72%
+  );
+  --blacky: #0a0a0a;
+  --light-grey: #f6f6f6;
+  --dark-grey: #888;
+  --blue: #009aff;
+}
+
+body {
+  font-family: DM Sans;
+}
+
+.block1440 {
+  width: 1440px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,46 @@
+.bigPromo {
+  height: 520px;
+  padding: 118px 155px;
+
+  .promoContent {
+    @apply flex flex-col text-white;
+
+    .promoLabel {
+      @apply inline-block px-2 py-1 uppercase;
+      background: var(--blue);
+      font-size: 15px;
+    }
+
+    .promoTitle {
+      @apply block pt-0 uppercase;
+      font-size: 40px;
+      line-height: normal;
+      letter-spacing: 8px;
+    }
+
+    .promoSubTitle {
+      @apply block;
+      color: var(--blue);
+      font-size: 16px;
+      line-height: normal;
+    }
+
+    .promoPrice {
+      @apply block mt-10 font-bold;
+      font-size: 24px;
+      font-style: normal;
+      line-height: normal;
+    }
+
+    .promoButton {
+      @apply flex justify-between items-center mt-6 rounded bg-white uppercase;
+      color: var(--blacky);
+      height: 58px;
+      width: 245px;
+      padding: 16px;
+      font-size: 16px;
+      line-height: normal;
+      letter-spacing: 1.6px;
+    }
+  }
+}

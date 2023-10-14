@@ -1,0 +1,31 @@
+.menu {
+  @apply flex py-6 justify-between mx-10;
+}
+
+.menuList {
+  @apply flex uppercase text-center items-center;
+  column-gap: 52px;
+  color: var(--blacky);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+
+  li {
+    @apply inline-block;
+  }
+}
+
+.menuItemActive {
+  background: var(--gradient-red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconsList {
+  @apply flex gap-2;
+
+  li {
+    @apply p-2;
+  }
+}

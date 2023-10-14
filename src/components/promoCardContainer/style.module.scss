@@ -1,0 +1,66 @@
+.promoCardContainter {
+  @apply flex justify-between;
+  padding: 56px 38px 74px;
+  background: var(--light-grey);
+
+  .promoCard {
+    @apply flex flex-col bg-white;
+    width: 440px;
+    height: 548px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    .athlete {
+      @apply text-white text-center uppercase mt-6 mb-auto;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 3.6px;
+    }
+
+    .athleteBlackText {
+      color: var(--blacky);
+    }
+
+    .productImg {
+      @apply mx-auto;
+      width: 274px;
+    }
+
+    .text {
+      @apply flex flex-col my-4;
+      padding: 10px 30px;
+
+      .typeProduct {
+        color: var(--dark-grey);
+        font-size: 13px;
+        line-height: normal;
+        letter-spacing: 1.3px;
+      }
+
+      .title {
+        @apply uppercase mt-1;
+        color: var(--blacky);
+        font-size: 24px;
+        line-height: normal;
+        letter-spacing: 4.8px;
+      }
+
+      .description {
+        @apply mt-2;
+        color: var(--dark-grey);
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: 0.56px;
+      }
+
+      .price {
+        @apply text-right font-bold mt-6;
+        color: var(--blacky);
+        font-size: 24px;
+        line-height: normal;
+        letter-spacing: 0.96px;
+      }
+    }
+  }
+}

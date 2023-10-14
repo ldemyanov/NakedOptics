@@ -1,0 +1,18 @@
+.promo {
+  @apply flex py-4 px-10 gap-20 items-center justify-center;
+  background: var(--light-grey);
+
+  .promoItem {
+    @apply flex flex-col justify-between;
+    height: 73px;
+
+    span {
+      @apply inline-block text-center;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: var(--dark-grey);
+    }
+  }
+}

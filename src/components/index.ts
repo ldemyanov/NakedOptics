@@ -1,0 +1,10 @@
+export { default as BigPromo } from "./bigPromo";
+export { default as DiscountNotification } from "./discountNotification";
+export { default as HeaderMenu } from "./headerMenu";
+export { default as PromoGoods } from "./promoGoods";
+export { default as SizeMatters } from "./sizeMatters";
+export { default as PromoCardContainer } from "./promoCardContainer";
+export { default as Stories } from "./stories";
+export { default as ListCompanies } from "./listCompanies";
+export { default as Footer } from "./footer";
+export { default as Mail } from "./mail";

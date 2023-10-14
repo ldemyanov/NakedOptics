@@ -1,0 +1,9 @@
+.topSale {
+  @apply w-full bg-black h-8 text-white uppercase flex items-center;
+  font-size: 13px;
+  line-height: 17px;
+
+  span {
+    @apply m-auto;
+  }
+}

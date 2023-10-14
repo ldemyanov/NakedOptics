@@ -1,0 +1,18 @@
+.container {
+  @apply py-20;
+  padding-left: 76px;
+  padding-right: 76px;
+}
+
+.title {
+  @apply text-black text-center font-medium uppercase;
+  color: #000;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 12px;
+  padding-bottom: 13px;
+}
+
+.companiesContainer {
+  @apply flex gap-10 justify-center p-2;
+}
