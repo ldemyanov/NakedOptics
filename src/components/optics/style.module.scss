@@ -1,0 +1,48 @@
+.optics {
+  @apply flex mt-12;
+
+  .opticsMainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .opticsCategory {
+    @apply flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+  }
+
+  .opticsMain {
+    @apply flex gap-5;
+
+    .opticsBigBox {
+      border-radius: 6px;
+      background: #F6F6F6;
+      width: 325px;
+      height: 456px;
+    }
+
+    .opticsBox {
+      border-radius: 6px;
+      background: #F6F6F6;
+      width: 210px;
+      height: 220px;
+    }
+
+    .opticsWrapper {
+      @apply flex flex-wrap;
+    }
+  }
+
+  .opticsTitle {
+    @apply text-xl font-bold uppercase inline-block mr-4;
+    letter-spacing: 4px;
+    color: var(--blacky);
+  }
+
+  .opticsLabel {
+    
+  }
+}

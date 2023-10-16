@@ -10,6 +10,7 @@ import {
   ListCompanies,
   Mail,
   Footer,
+  Optics,
 } from "./components";
 
 function App() {
@@ -46,6 +47,10 @@ function App() {
       </section>
 
       <Footer />
+
+      <section className={classes.block1440}>
+        <Optics/>
+      </section>
     </>
   );
 }

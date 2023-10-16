@@ -8,3 +8,4 @@ export { default as Stories } from "./stories";
 export { default as ListCompanies } from "./listCompanies";
 export { default as Footer } from "./footer";
 export { default as Mail } from "./mail";
+export { default as Optics } from "./optics";
