@@ -3,8 +3,9 @@ import { promoCards } from "@/static";
 
 const promoCardContainer = () => (
   <section className={classes.promoCardContainter}>
-    {promoCards.map((item) => (
+    {promoCards.map((item, i) => (
       <div
+        key={i}
         className={classes.promoCard}
         style={{ backgroundImage: `url(${item.backgroundImg})` }}
       >

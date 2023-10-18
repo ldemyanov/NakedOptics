@@ -1,48 +1,78 @@
 .optics {
-  @apply flex mt-12;
+  @apply flex mt-12 font-normal text-sm ml-10;
+  color: var(--blacky);
 
-  .opticsMainWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .opticsCategory {
-    @apply flex;
-    align-items: center;
-    gap: 8px;
-    padding: 0px 8px;
-  }
-
-  .opticsMain {
-    @apply flex gap-5;
-
-    .opticsBigBox {
-      border-radius: 6px;
-      background: #F6F6F6;
-      width: 325px;
-      height: 456px;
-    }
+  .opticsWrapper {
+    @apply mr-5 flex flex-col gap-5;
+    font-size: 13px;
 
     .opticsBox {
-      border-radius: 6px;
-      background: #F6F6F6;
-      width: 210px;
-      height: 220px;
-    }
+      @apply flex flex-col;
 
-    .opticsWrapper {
-      @apply flex flex-wrap;
+      .opticsSubTitle {
+        @apply mb-1.5;
+        color: var(--dark-drey);
+      }
+
+      .opticsActive {
+        @apply rounded-md;
+        background: #F6F6F6;
+
+        .opticsCategory {
+          @apply flex gap-2 px-2 py-6 w-52 items-center;
+        }
+      }
     }
   }
 
   .opticsTitle {
     @apply text-xl font-bold uppercase inline-block mr-4;
     letter-spacing: 4px;
-    color: var(--blacky);
   }
 
   .opticsLabel {
-    
+    color: var(--dark-grey);
+    font-size: 15px;
+  }
+
+  .opticsMain {
+    @apply flex gap-5 mt-5;
+
+    .opticsInner {
+      @apply flex flex-wrap columns-3 gap-4;
+      max-width: 700px;
+    }
+
+    .opticsContent {
+      @apply rounded-md text-center text-base flex flex-col justify-around;
+      background: #F6F6F6;
+
+      .opticsContentImg {
+        @apply mt-10;
+      }
+
+      .opticsContentBox {
+        @apply my-6 flex flex-col items-center;
+      }
+
+      span {
+        max-width: 180px;
+      }
+
+      .opticsContentName {
+        @apply text-2xl;
+      }
+
+      .opticsContentColor {
+        @apply my-1 uppercase;
+        letter-spacing: 1.4px;
+      }
+
+      .opticsContentTxt {
+        max-width: 290px;
+        color: var(--dark-grey);
+        letter-spacing: 1.4px;
+      }
+    }
   }
 }

@@ -2,16 +2,16 @@ type SportGlasses = {
   img: string,
   title: string,
   colorsInfo: string,
-  // txt?: string,
+  txt?: string,
 }
 
 const sportGlasses: SportGlasses[] = [
-  // {
-  //   img: 'img/sportBigRushHalfFrame.png',
-  //   title: 'Rush Half Frame',
-  //   colorsInfo: '3 COLORS',
-  //   txt: 'Adjustable nose mount, protection: UV400, unique size',
-  // },
+  {
+    img: 'img/sportBigRushHalfFrame.png',
+    title: 'Rush Half Frame',
+    colorsInfo: '3 COLORS',
+    txt: 'Adjustable nose mount, protection: UV400, unique size',
+  },
   {
     img: 'img/sportRushHalfFrame.png',
     title: 'Rush Full Frame ',

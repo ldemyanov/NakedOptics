@@ -34,9 +34,9 @@ export default {
   bsmSizeS: "Size S",
 
   // block "Optics"
-  optGlasses: "Glasses",
-  optGoggles: "Goggles",
-  optOthers: "Others",
+  optGLASSES: "Glasses",
+  optGOGGLES: "Goggles",
+  optOTHERS: "Others",
   optSportGlasses: "Sport glasses",
   optLabel: "See all products >",
 }
